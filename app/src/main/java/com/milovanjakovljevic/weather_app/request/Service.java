@@ -17,7 +17,7 @@ public class Service {
 
     private static WeatherApi weatherApi = retrofit.create(WeatherApi.class);
 
-    public WeatherApi getWeatherApi(){
+    public static WeatherApi getWeatherApi(){
         return weatherApi;
     }
 }
